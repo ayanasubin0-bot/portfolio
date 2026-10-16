@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ayana P S | Robotics & AI Engineering</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <nav class="container">
+      <a href="#" class="logo">Ayana<span>P S</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="menu-toggle" aria-label="Toggle menu">&#9776;</button>
+      <button class="theme-toggle" aria-label="Toggle dark mode" title="Dark mode">&#9728;</button>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-content">
+      <h1>Hi, I'm <strong>Ayana P S</strong></h1>
+      <p class="subtitle">Robotics &amp; AI Engineering Student</p>
+      <p class="tagline">Building intelligent systems. I sing and dance in my spare time.</p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn">View My Work</a>
+        <a href="assets/resume.pdf" class="btn btn-outline" download>Download Resume</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about container">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>I am an Robotics &amp; AI engineering student passionate about creating intelligent systems that solve real-world problems.</p>
+        <p>When I'm not coding or tinkering with robots, you'll find me <strong>singing</strong> and <strong>dancing</strong> — both keep me creative and balanced.</p>
+      </div>
+      <div class="about-stats">
+        <div class="stat"><span class="number">R&amp;AI</span><span class="label">Engineering Student</span></div>
+        <div class="stat"><span class="number">Singing</span><span class="label">Hobby</span></div>
+        <div class="stat"><span class="number">Dancing</span><span class="label">Hobby</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="skills bg-light">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card"><span>Python</span></div>
+        <div class="skill-card"><span>C++</span></div>
+        <div class="skill-card"><span>Robotics (ROS)</span></div>
+        <div class="skill-card"><span>Machine Learning</span></div>
+        <div class="skill-card"><span>Computer Vision</span></div>
+        <div class="skill-card"><span>Embedded Systems</span></div>
+        <div class="skill-card"><span>HTML/CSS</span></div>
+        <div class="skill-card"><span>Git</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects container">
+    <h2 class="section-title">Projects</h2>
+    <p class="section-subtitle">My Robotics & AI work will appear here. I'll add each new project as I complete it.</p>
+    <div class="filter-buttons">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="robotics">Robotics</button>
+      <button class="filter-btn" data-filter="ai">AI</button>
+      <button class="filter-btn" data-filter="ml">Machine Learning</button>
+    </div>
+    <div class="projects-grid" id="projects-list">
+      <div class="project-card empty" data-category="all">
+        <div class="project-placeholder">&#128205;</div>
+        <h3>Upcoming Project</h3>
+        <p>Stay tuned — my first R&AI project is coming soon.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="blog" class="blog bg-light">
+    <div class="container">
+      <h2 class="section-title">Blog</h2>
+      <p class="section-subtitle">Thoughts on robotics, AI, and my learning journey.</p>
+      <div class="blog-grid">
+        <article class="blog-card">
+          <div class="blog-meta"><span class="blog-category">Robotics</span> <span class="blog-date">Oct 2026</span></div>
+          <h3>Getting Started with ROS 2</h3>
+          <p>My first steps into the Robot Operating System — nodes, topics, and building a simple publisher.</p>
+          <a href="#" class="btn btn-outline" style="padding: 0.5rem 1rem; font-size: 0.9rem;">Read more</a>
+        </article>
+        <article class="blog-card">
+          <div class="blog-meta"><span class="blog-category">AI</span> <span class="blog-date">Sep 2026</span></div>
+          <h3>Understanding Neural Networks</h3>
+          <p>A beginner's guide to how neural networks learn, from perceptrons to backpropagation.</p>
+          <a href="#" class="btn btn-outline" style="padding: 0.5rem 1rem; font-size: 0.9rem;">Read more</a>
+        </article>
+        <article class="blog-card">
+          <div class="blog-meta"><span class="blog-category">Machine Learning</span> <span class="blog-date">Aug 2026</span></div>
+          <h3>My First Computer Vision Project</h3>
+          <p>Building an image classifier from scratch using Python and OpenCV.</p>
+          <a href="#" class="btn btn-outline" style="padding: 0.5rem 1rem; font-size: 0.9rem;">Read more</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials" class="testimonials container">
+    <h2 class="section-title">What Others Say</h2>
+    <div class="testimonials-grid">
+      <div class="testimonial-card">
+        <p class="testimonial-text">"Ayana has a remarkable ability to grasp complex robotics concepts quickly. Her dedication to learning is inspiring."</p>
+        <p class="testimonial-author">— Prof. R. Menon, Robotics Department</p>
+      </div>
+      <div class="testimonial-card">
+        <p class="testimonial-text">"Great team player and a fast learner. Her ML project was one of the best in the class."</p>
+        <p class="testimonial-author">— S. Nair, Classmate</p>
+      </div>
+      <div class="testimonial-card">
+        <p class="testimonial-text">"Impressive work on computer vision. She balances technical excellence with creativity."</p>
+        <p class="testimonial-author">— Dr. L. Krishnan, AI Lab Mentor</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact bg-light">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+      <div class="contact-wrapper">
+        <form class="contact-form" id="contact-form">
+          <div class="form-group">
+            <label>Name</label>
+            <input type="text" name="name" required />
+          </div>
+          <div class="form-group">
+            <label>Email</label>
+            <input type="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label>Message</label>
+            <textarea name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+        <div class="contact-info">
+          <p><strong>Email:</strong> <a href="mailto:ayana@example.com">ayana@example.com</a></p>
+          <p><strong>Location:</strong> India</p>
+          <p><strong>Hobbies:</strong> Singing &amp; Dancing</p>
+          <div class="social-links">
+            <a href="https://github.com/ayanasubin0-bot" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub">GitHub</a>
+            <a href="https://linkedin.com/in/ayanasubin0-bot" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">LinkedIn</a>
+            <a href="assets/resume.pdf" class="social-link" download aria-label="Resume">Resume</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="container">
+    <p>&copy; 2026 Ayana P S. Built with HTML, CSS &amp; JavaScript.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
